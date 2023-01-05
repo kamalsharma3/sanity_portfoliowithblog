@@ -1,0 +1,26 @@
+// <div className="home mx-8">
+  //   <h1>{blogs[0].title}</h1>
+  //   <div className="mx-8">
+  //     <PortableText
+  //       // Pass in block content straight from Sanity.io
+  //       content={blogs[0].content}
+  //       projectId="x0spqc8g"
+  //       dataset="production"
+  //       // Optionally override marks, decorators, blocks, etc. in a flat
+  //       // structure without doing any gymnastics
+  //       serializers={{
+  //         h1: (props) => <h1 style={{ color: "red" }} {...props} />,
+  //         li: ({ children }) => (
+  //           <li className="special-list-item">{children}</li>
+  //         ),
+  //       }}
+  //     />
+  //     <div className="m-5 bg-green-500 ">
+  //       This is Home functional component retreived from index.js inside
+  //       next-frontend directory{" "}
+  //       <span className=" text-sm font-light bg-green-200">
+  //         ***This is written inside span
+  //       </span>
+  //     </div>
+  //   </div>
+  // </div>

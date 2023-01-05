@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Note tailwind doesn't support color coding [color] with hsl or rgb.  Only hexadecimal coding allowed for colors */
+  --bg-color: #453393;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.translated {
+  transition: transform;
+  transform: translateX(0);
+}
