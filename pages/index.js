@@ -212,10 +212,6 @@ const Home = ({ projects, blogs, profile }) => {
                     <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
                       I&rsquo;m {profile.name}, a Web Designer & Developer
                     </h4>
-                    <p className="pt-6 font-body leading-relaxed font-semibold text-[#5a4ab5] text-3xl decoration-[#5a4ab5] border-[#5a4ab5]">
-                      The site developed using HTML, CSS, JavaScript, Tailwind
-                      CSS, React JS, Next JS, Sanity.io
-                    </p>
                     <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                       <div className="flex items-center justify-center sm:justify-start">
                         <p className="font-body text-lg font-semibold uppercase text-grey-20">
