@@ -9,11 +9,11 @@ const Nav = () => {
     <>
       <nav
         //--------------------Very important conditional rendering with className-------------------------------------
-        className={`absolute right-8 top-14 px-5 text-center bg-gray z-50 transition-transform translate-x-full lg:translate-x-0 ${
-          istranslated ? "translated" : " "
+        className={`absolute right-4 top-14 p-0 text-center bg-gray z-50 transition-transform ${
+          istranslated ? "translate-x-full" : ""
         }`}
       >
-        <ul className="items-center lg:flex">
+        <ul className="items-center md:flex">
           <li className="group pl-6 ">
             <Link href="./">
               <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white ">
@@ -45,7 +45,7 @@ const Nav = () => {
           </li>
 
           <li className="group pl-6">
-            <Link href="/projects">
+            <Link href="./projects">
               <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                 Portfolio
               </span>
@@ -75,7 +75,7 @@ const Nav = () => {
           </li> */}
 
           <li className="group pl-6">
-            <Link href="/">
+            <Link href="./statistics">
               <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                 Statistics
               </span>
@@ -85,7 +85,7 @@ const Nav = () => {
           </li>
 
           <li className="group pl-6">
-            <Link href="/blogs">
+            <Link href="./blogs">
               <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                 Blog
               </span>

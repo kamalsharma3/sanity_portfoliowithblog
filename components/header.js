@@ -8,7 +8,7 @@ const Header = () => {
     <div className="sticky z-50 ">
       {/* ---------------------Header section start ------ */}
       <div
-        className="w-full py-3 sm:py-5 top-0 bg-[#400391] 
+        className="max-w-screen py-3 sm:py-5 top-0 bg-[#400391] 
   "
       >
         <div className="container flex items-center justify-between mx-auto ">

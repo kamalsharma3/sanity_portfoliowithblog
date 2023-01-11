@@ -15,4 +15,9 @@ body {
 .translated {
   transition: transform;
   transform: translateX(0);
+  padding: 0;
+}
+
+.boxsize0 {
+  box-sizing: content-box;
 }
