@@ -9,7 +9,7 @@ const Nav = () => {
     <>
       <nav
         //--------------------Very important conditional rendering with className-------------------------------------
-        className={`absolute right-8 top-14 px-5 text-center bg-gray z-50 transition-transform translate-x-full lg:translate-x-0 ${
+        className={`absolute right-8 top-5 px-5 text-center bg-gray z-50 transition-transform lg:nottranslated ${
           istranslated ? "translated" : " "
         }`}
       >
@@ -20,7 +20,6 @@ const Nav = () => {
                 Home
               </span>
             </Link>
-
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
           </li>
 
@@ -106,7 +105,7 @@ const Nav = () => {
         </ul>
       </nav>
 
-      <CrossFuncComp />
+      {/* <CrossFuncComp /> */}
     </>
   );
 };

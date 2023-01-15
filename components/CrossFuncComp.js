@@ -6,7 +6,7 @@ const CrossFuncComp = () => {
   return (
     <div className="cursor-pointer inset-0 min-h-full max-h-screen bg-purple-700 bg-opacity-70 opacity-70 transition-opacity lg:hidden absolute z-30 ">
       <div
-        className={`absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3 transition-transform translate-x-full ${
+        className={`relative right-0 min-h-screen bg-primary py-4 px-8 shadow transition-transform nottranslated ${
           istranslated ? "translated" : " "
         }`}
       >

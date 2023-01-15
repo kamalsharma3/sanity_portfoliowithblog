@@ -135,7 +135,7 @@ const Home = ({ projects, blogs, profile }) => {
             {/* ----Second section start------ */}
             <div>
               <div
-                className="relative bg-cover bg-center bg-no-repeat py-20"
+                className="relative bg-cover bg-center bg-no-repeat py-40 md:py-28 lg:py-2"
                 style={{ backgroundImage: "url(/assets/img/bg-hero.jpg)" }}
               >
                 <div className="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>

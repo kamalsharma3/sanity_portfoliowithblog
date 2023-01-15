@@ -12,7 +12,17 @@ body {
   scroll-behavior: smooth;
 }
 
+.nottranslated {
+  transition: transform;
+  --webkit-transition: transform;
+  transform: translateX(100%);
+  --webkit-transform: translateX(100%);
+  width: 0;
+}
+
 .translated {
   transition: transform;
+  --webkit-transition: transform;
   transform: translateX(0);
+  --webkit-transform: translateX(0);
 }
